@@ -1,0 +1,6 @@
+horas = int (input ("Introduzca las horas de trabajo:"))
+print(horas)
+coste = int(input ("Introduzca el precio de las horas:"))
+print(coste)
+total = (horas * coste)
+print (f"El importe total es: {total}")
