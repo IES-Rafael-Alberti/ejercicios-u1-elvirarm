@@ -5,6 +5,8 @@
  
 PRECIO_PAN = 3.49
 num_pan_antiguo = int(input("¿Cuántas barras de pan que no son del día se han vendido?: "))
-
-
-
+print (f"El precio habitual de las barras de pan es: {PRECIO_PAN} euros")
+Descuento_pan = (PRECIO_PAN *0.60)
+print("El descuento que se le aplicará será de {:.2f} euros".format (PRECIO_PAN - Descuento_pan))
+precio_final_barrasAntiguas = num_pan_antiguo * Descuento_pan
+print("El coste final de todas las barras no frescas es: {:.2f} euros.".format(precio_final_barrasAntiguas))
