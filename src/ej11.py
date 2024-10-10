@@ -4,16 +4,10 @@
 #
 n = int(input("Escribe un número: "))
 sumaNumeros = 0
+
 for i in range (1,n+1):
     sumaNumeros = sumaNumeros + i
     print (sumaNumeros)
+
 comprobacion = (n*(n+1))/2
 print (int(comprobacion))
-
-n = int(input("Escribe el número: "))
-
-#ESCRIBIR DE NUEVO _ rehacer
-
-num = int(input("Dame un número: "))
-suma = int(num * (num + 1) / 2)
-print("La suma de los números del 1 al ", num, "es", suma)
