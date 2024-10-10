@@ -1,8 +1,5 @@
-# P1.2d - Construye funciones
-
-### Crea una función para los siguientes ejercicios de la P1.2:
-
-**Crea una copia de los ejercicios y renómbralos** añadiéndole al nombre el sufijo **"_def"**, por ejemplo, hacemos una copia de `ej01.py` y lo llamamos `ej01_def.py`
+#
+#**Crea una copia de los ejercicios y renómbralos** añadiéndole al nombre el sufijo **"_def"**, por ejemplo, hacemos una copia de `ej01.py` y lo llamamos `ej01_def.py`
 
   - ej01 => recibe un nombre y retorna una cadena de caracteres con el resultado.
 
@@ -13,3 +10,4 @@
   - ej05 => recibe el importe del artículo sin iva y el tipo de iva a aplicar, pero no retorna nada, sino que se imprime desde dentro de la función.
 
   - ej11 => recibe un número y retorna una cadena de caracteres con el resultado de la función.
+#
