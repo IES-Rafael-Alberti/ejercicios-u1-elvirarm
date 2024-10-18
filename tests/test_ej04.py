@@ -1,4 +1,4 @@
-from src.ej04_def2 import grados_celsius
+from src.pruebas_unitarias.ej04_def2 import grados_celsius
 
 def test_grado_celsius():
     assert round(grados_celsius(20),2) == -6.67

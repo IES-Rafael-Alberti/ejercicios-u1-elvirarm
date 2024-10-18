@@ -1,4 +1,4 @@
-from src.ej05_def2 import calcula_precio
+from src.pruebas_unitarias.ej05_def2 import calcula_precio
 
 def test_calcula_precio():
     

@@ -8,7 +8,7 @@ def pedir_numero():
 
 def comprobar_divisores(num):
     divisores = ""
-    for i in range (1,num):
+    for i in range (1,num+1):
         if num % i == 0:
             divisores += str(i) + ","
     
