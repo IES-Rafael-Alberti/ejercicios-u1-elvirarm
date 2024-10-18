@@ -1,11 +1,11 @@
-def comprobar_entero(cadena: str) -> bool
+def comprobar_entero(cadena: str) -> bool:
     cadena = cadena.strip() #Si la queremos usar tenemos que igualarle el valor para usarlo
     return cadena.isdigit() or (cadena.startswith("-") and cadena[1:].isdigit()) #Nos comprueba si es número. Las funciones llevan parentesis siempre.
 
 
-def dame_entero() -> int
+def dame_entero() -> int:
     cadena = input("Dame un entero: ")
-  while not comprobar_entero(cadena):
+    while not comprobar_entero(cadena):
         cadena = input("**ERROR** no es un entero!!\n\n Dame un entero de verdad:")
     
     return int(cadena)

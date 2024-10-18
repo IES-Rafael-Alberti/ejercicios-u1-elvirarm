@@ -5,12 +5,12 @@
 def main():
     nombre = input("Introduce el nombre de un producto: ")
     precio = float(input("Introduce el precio del producto: "))
-    numero = int(input("Introduce el número de unidades: "))
+    numero = int(input("Introduce el número de unidades:"))
     precio_redondeado = (f"{precio:6.2f}")
     numero_redondeado = (f"{numero:3.0f}")
     total = precio * numero
     total_redondeado = ("total:08.2f")
-    frase = (f"{nombre}, {precio_redondeado} , {numero_redondeado}, {total}")
+    frase = (f"{nombre},{precio_redondeado} ,{numero_redondeado},{total}")
     print (frase)
 
 if __name__ == "__main__":

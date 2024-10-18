@@ -9,4 +9,4 @@ articuloSinIVA = (articuloConIVA / 1.1)
 
 IVApagado = (articuloConIVA - articuloSinIVA)
 
-print (f"El precio sin IVA es: {articuloSinIVA} y el IVA pagado es {IVApagado}")
+print (f"El precio sin IVA es: {articuloSinIVA:.2f} y el IVA pagado es {IVApagado:.2f}")

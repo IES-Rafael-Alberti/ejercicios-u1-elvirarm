@@ -4,5 +4,7 @@
 #
 
 tempCelsius =  float(input("Dame una temperatura en grados Celsius:"))
+
 tempFahrenheit = ((tempCelsius * 9/5)+32)
+
 print (f"La temperatura en grados Farenheit es: {tempFahrenheit}ºF ({tempCelsius}ºC)")

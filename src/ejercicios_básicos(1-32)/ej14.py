@@ -8,4 +8,5 @@ numPayasos = int(input("Escribe el número de payasos vendidos en el último ped
 numMuñecas = int(input("Escribe el número de muñecas vendidas en el último pedido: "))
 total_payasos = pesoPayaso * numPayasos
 total_muñecas = pesoMuñeca * numMuñecas
-print(f"Se han vendido {total_payasos} payasos y {total_muñecas} muñecas.")
+peso_pedido = total_payasos + total_muñecas
+print(f"El peso total del paquete es de {peso_pedido} gramos.")
