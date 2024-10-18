@@ -7,21 +7,25 @@ def fibonacci(hasta):
     num1 = 0
     num2 = 1
 
-    serie = "0 1"
-    suma = 0
+    serie = ""
+
+    if hasta >= 0:
+        serie += str(num1) + " "
+    if hasta >= 1:
+        serie += str(num2) + " "
+
+    suma = num1 + num2
 
     while suma <= hasta:
+        serie += str(suma) + " "
+        num1, num2 = num2, suma
         suma = num1 + num2
-        num1 = num2
-        num2 = suma
-        if suma <= hasta:
-            serie += " " + str(suma)
 
-    return serie
+    return serie.strip()
 
 def main():
     num_fin = int(input("Introduzca el número final de la serie Fibonacci: "))
-    print (fibonacci(num_fin))
+    print(fibonacci(num_fin))
 
 if __name__ == "__main__":
     main()
